@@ -1,0 +1,53 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.DS_Store": true,
+      "**/coverage": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/coverage": true,
+      "**/build": true
+    },
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "eslint.lintTask.enable": true,
+    "eslint.lintTask.options": "--ext .js,.ts,.tsx src packages cypress",
+    "eslint.validate": [
+      "javascript", "javascriptreact", "typescript", "typescriptreact"
+    ],
+    "files.associations": {},
+    "files.trimTrailingWhitespace": true,
+    "javascript.validate.enable": false,
+    // auto-running jest is too costly, but it's still great to have debug
+    "jest.autoEnable": false,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "apollographql.vscode-apollo",
+      "mikestead.dotenv",
+      "dbaeumer.vscode-eslint",
+      "orta.vscode-jest",
+      "esbenp.prettier-vscode",
+      "jasonnutter.search-node-modules",
+      "ms-vsliveshare.vsliveshare",
+      "silvenon.mdx",
+      "xyc.vscode-mdx-preview"
+    ],
+    "unwantedRecommendations": []
+  }
+}
