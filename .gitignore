@@ -1,23 +1,41 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# OS X Finder hidden files
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# For IntelliJ based products
+.idea
+*.iml
+.DS_Store
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build
+
+# Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Ignore's VS Code's config directory
+.vscode
+
+# terraform
+*.tfstate.backup
+.terraform
+
+# dotenv for local env variables
+.env
+.env.local
+
+# cypress videos & screenshots
+cypress/screenshots/
+cypress/videos/
+mochawesome-report/
+
+# GraphQL codegen
+*.graphql.tsx
+*fragmentMatchingIntrospection.tsx
+*introspection.json
